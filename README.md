@@ -56,7 +56,7 @@ The **Mode Bit** determines how the PC is updated when a branch is taken.
 
 ---
 
-## 💻 Simulation and Testing
+## Simulation and Testing
 
 To verify the design, a specific test program was loaded into the ROM.
 
