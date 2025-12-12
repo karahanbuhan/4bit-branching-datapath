@@ -4,13 +4,22 @@ This project implements a **4-bit datapath with conditional branching logic** us
 
 The design operates as a **single-cycle** architecture, performing fetch, decode, and execute operations within a single clock pulse.
 
----
 
 ## Overview
 The primary goal of this project is to demonstrate how a processor handles control flow operations. The datapath reads instructions from a ROM, compares values stored in a register file, and updates the Program Counter (PC) to jump to absolute addresses or apply relative offsets.
 
 ![Main Circuit Diagram](Circuit.png)
 *(Overview of the Logisim solution)*
+
+---
+
+## Installation
+
+You can download the circuit file directly:
+
+[Download .circ File](https://github.com/karahanbuhan/4bit-branching-datapath/raw/main/4Bit_Branching_Datapath.circ)
+
+> **Note:** If the link opens as text/code in your browser, please **Right-Click** the link above and select **"Save Link As..."**.
 
 ---
 
