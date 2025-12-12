@@ -83,7 +83,8 @@ To verify the design, a specific test program was loaded into the ROM.
 | **0xA** | `JMP @0xA` | `EA0`| *Skipped.* |
 
 ![Simulation Flowchart](Flowchart.png)
-*(Flowchart of the test scenario)*
+
+*(Flowchart of the test scenario, goes straight down)*
 
 ### Results
 The simulation successfully followed the expected path (indicated by the red arrow in the flowchart) and entered the infinite loop at line `0x9`. The design correctly handles fetch, decode, and execute stages in a single cycle.
